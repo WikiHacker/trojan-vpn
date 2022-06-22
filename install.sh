@@ -337,33 +337,33 @@ systemctl enable vmess-ws
 
 #copy ke /usr/bin
 cd /usr/bin
-wget -O add-tr https://${bhoikfostyahya}/xp.sh 
-wget -O add-tr https://${bhoikfostyahya}/vmessmenu.sh
-wget -O add-tr https://${bhoikfostyahya}/vlessmenu.sh
-wget -O add-tr https://${bhoikfostyahya}/user.sh
-wget -O add-tr https://${bhoikfostyahya}/trojanmenu.sh
-wget -O add-tr https://${bhoikfostyahya}/renew-vmess.sh
-wget -O add-tr https://${bhoikfostyahya}/renew-vless.sh
-wget -O add-tr https://${bhoikfostyahya}/renew-trojan-grpc.sh
-wget -O add-tr https://${bhoikfostyahya}/renew-trojan.sh
-wget -O add-tr https://${bhoikfostyahya}/menu.sh
-wget -O add-tr https://${bhoikfostyahya}/help.sh
-wget -O add-tr https://${bhoikfostyahya}/grpcmenu.sh
-wget -O add-tr https://${bhoikfostyahya}/del-vmess.sh
-wget -O add-tr https://${bhoikfostyahya}/del-vless.sh
-wget -O add-tr https://${bhoikfostyahya}/del-trojan-grpc.sh
-wget -O add-tr https://${bhoikfostyahya}/del-trojan.sh
-wget -O add-tr https://${bhoikfostyahya}/clear-log.sh
-wget -O add-tr https://${bhoikfostyahya}/cert.sh
-wget -O add-tr https://${bhoikfostyahya}/cek-vmess.sh
-wget -O add-tr https://${bhoikfostyahya}/cek-vless.sh
-wget -O add-tr https://${bhoikfostyahya}/cek-service.sh
-wget -O add-tr https://${bhoikfostyahya}/cek-trojan-grpc.sh
-wget -O add-tr https://${bhoikfostyahya}/cek-trojan.sh
-wget -O add-tr https://${bhoikfostyahya}/add-vmess.sh
-wget -O add-tr https://${bhoikfostyahya}/add-vless.sh
-wget -O add-tr https://${bhoikfostyahya}/add-trojan-grpc.sh
-wget -O add-tr https://${bhoikfostyahya}/add-trojan.sh
+wget -O xp https://${bhoikfostyahya}/xp.sh 
+wget -O vmessmenu https://${bhoikfostyahya}/vmessmenu.sh
+wget -O vlessmenu https://${bhoikfostyahya}/vlessmenu.sh
+wget -O user https://${bhoikfostyahya}/user.sh
+wget -O trojanmenu https://${bhoikfostyahya}/trojanmenu.sh
+wget -O renew-vmess https://${bhoikfostyahya}/renew-vmess.sh
+wget -O renew-vless https://${bhoikfostyahya}/renew-vless.sh
+wget -O renew-trojan-grpc https://${bhoikfostyahya}/renew-trojan-grpc.sh
+wget -O renew-trojan https://${bhoikfostyahya}/renew-trojan.sh
+wget -O menu https://${bhoikfostyahya}/menu.sh
+wget -O help https://${bhoikfostyahya}/help.sh
+wget -O grpcmenu https://${bhoikfostyahya}/grpcmenu.sh
+wget -O del-vmess https://${bhoikfostyahya}/del-vmess.sh
+wget -O del-vless https://${bhoikfostyahya}/del-vless.sh
+wget -O del-trojan-grpc https://${bhoikfostyahya}/del-trojan-grpc.sh
+wget -O del-trojan https://${bhoikfostyahya}/del-trojan.sh
+wget -O clear-log https://${bhoikfostyahya}/clear-log.sh
+wget -O cert https://${bhoikfostyahya}/cert.sh
+wget -O cek-vmess https://${bhoikfostyahya}/cek-vmess.sh
+wget -O cek-vless https://${bhoikfostyahya}/cek-vless.sh
+wget -O cek-service https://${bhoikfostyahya}/cek-service.sh
+wget -O cek-trojan-grpc https://${bhoikfostyahya}/cek-trojan-grpc.sh
+wget -O cek-trojan https://${bhoikfostyahya}/cek-trojan.sh
+wget -O add-vmess https://${bhoikfostyahya}/add-vmess.sh
+wget -O add-vless https://${bhoikfostyahya}/add-vless.sh
+wget -O add-trojan-grpc https://${bhoikfostyahya}/add-trojan-grpc.sh
+wget -O add-trojan https://${bhoikfostyahya}/add-trojan.sh
 chmod +x /usr/bin/*
 cd
 #install cert
