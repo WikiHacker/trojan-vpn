@@ -364,37 +364,9 @@ wget -O add-tr https://${bhoikfostyahya}/add-vmess.sh
 wget -O add-tr https://${bhoikfostyahya}/add-vless.sh
 wget -O add-tr https://${bhoikfostyahya}/add-trojan-grpc.sh
 wget -O add-tr https://${bhoikfostyahya}/add-trojan.sh
-cd /usr/bin
-chmod +x xp
-chmod +x vmessmenu
-chmod +x vlessmenu
-chmod +x user
-chmod +x trojanmenu
-chmod +x renew-vmess
-chmod +x renew-vless
-chmod +x renew-trojan-grpc
-chmod +x renew-trojan
-chmod +x menu
-chmod +x help
-chmod +x grpcmenu
-chmod +x del-vmess
-chmod +x del-vless
-chmod +x del-trojan-grpc
-chmod +x del-trojan
-chmod +x clear-log
-chmod +x cert
-chmod +x cek-vmess
-chmod +x cek-vless
-chmod +x cek-trojan-grpc
-chmod +x cek-trojan
-chmod +x cek-service
-chmod +x add-vmess
-chmod +x add-vless
-chmod +x add-trojan-grpc
-chmod +x add-trojan
+chmod +x /usr/bin/*
 cd
 #install cert
 cert
 clear-log
-bash .profile
-echo "Sukses ngab"
+echo "Sukses.............."
